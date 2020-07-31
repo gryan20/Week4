@@ -53,9 +53,9 @@ public class Numbers {
 		{
 			System.out.println(array[i]);
 		}
-		if(nextLargestElement > max)
+		if (nextLargestElement >= max)
 		{
-			System.out.print("MAX_VALUE");
+			System.out.print( max + ": MAX_VALUE");
 		}
 		}
 	
